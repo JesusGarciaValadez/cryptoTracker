@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* cryptoTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cryptoTrackerTests.m */; };
+		10E813AE98EC30D2D8CA72F4 /* libPods-cryptoTracker-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 418DDEB469DEE377C01CA989 /* libPods-cryptoTracker-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -15,11 +16,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* cryptoTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cryptoTrackerTests.m */; };
-		54DF3AFD76C19D4FD664D86F /* libPods-cryptoTracker-cryptoTrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E71E0A85D3DF98268DF83B /* libPods-cryptoTracker-cryptoTrackerTests.a */; };
-		65022789B4090334FD852A83 /* libPods-cryptoTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F86AD3F915EB1B64D59444 /* libPods-cryptoTracker.a */; };
+		2F9EC58B2126A97D758606BA /* libPods-cryptoTracker-cryptoTrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF4B58A00ACBA0AF52E581E /* libPods-cryptoTracker-cryptoTrackerTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		DE36CCBF7D545223290A8B14 /* libPods-cryptoTracker-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB47C70E8D014341815FA47C /* libPods-cryptoTracker-tvOSTests.a */; };
-		F0A903F5ED36DB3D4C8DF965 /* libPods-cryptoTracker-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D38A5B250C4D8074E7B4DFF0 /* libPods-cryptoTracker-tvOS.a */; };
+		A97A8CDD3D7B3E5EF693F677 /* libPods-cryptoTracker-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A69BF2CB134BBE55EFBB89D5 /* libPods-cryptoTracker-tvOSTests.a */; };
+		EA14F8E2E1DCDDFFF10BC38E /* libPods-cryptoTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A4661DEA04155D5021B29A /* libPods-cryptoTracker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +44,29 @@
 		00E356EE1AD99517003FC87E /* cryptoTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cryptoTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* cryptoTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cryptoTrackerTests.m; sourceTree = "<group>"; };
+		0AF4B58A00ACBA0AF52E581E /* libPods-cryptoTracker-cryptoTrackerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cryptoTracker-cryptoTrackerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* cryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = cryptoTracker/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = cryptoTracker/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = cryptoTracker/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = cryptoTracker/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = cryptoTracker/main.m; sourceTree = "<group>"; };
+		1826DABB83068C824EA591C7 /* Pods-cryptoTracker-cryptoTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker-cryptoTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-cryptoTracker-cryptoTrackerTests/Pods-cryptoTracker-cryptoTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* cryptoTracker-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cryptoTracker-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* cryptoTracker-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cryptoTracker-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BA76A527B1DB0B98FF8CD7A /* Pods-cryptoTracker-cryptoTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker-cryptoTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-cryptoTracker-cryptoTrackerTests/Pods-cryptoTracker-cryptoTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B252FF8AE2A1ED0D768F31B /* Pods-cryptoTracker-cryptoTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker-cryptoTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-cryptoTracker-cryptoTrackerTests/Pods-cryptoTracker-cryptoTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		32A9CE19D148EFD664243B19 /* Pods-cryptoTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker.debug.xcconfig"; path = "Target Support Files/Pods-cryptoTracker/Pods-cryptoTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		418DDEB469DEE377C01CA989 /* libPods-cryptoTracker-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cryptoTracker-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		700D3EBCF799872AD43E5E64 /* Pods-cryptoTracker-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-cryptoTracker-tvOSTests/Pods-cryptoTracker-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81A4661DEA04155D5021B29A /* libPods-cryptoTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cryptoTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = cryptoTracker/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9CA4FEEC51B518B1E7772F5E /* Pods-cryptoTracker-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-cryptoTracker-tvOSTests/Pods-cryptoTracker-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		A3969AD79BC264FE39F8FD32 /* Pods-cryptoTracker-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-cryptoTracker-tvOS/Pods-cryptoTracker-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		B6F86AD3F915EB1B64D59444 /* libPods-cryptoTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cryptoTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7D8D8177C3CF57AC1009F0F /* Pods-cryptoTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker.release.xcconfig"; path = "Target Support Files/Pods-cryptoTracker/Pods-cryptoTracker.release.xcconfig"; sourceTree = "<group>"; };
-		C8E71E0A85D3DF98268DF83B /* libPods-cryptoTracker-cryptoTrackerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cryptoTracker-cryptoTrackerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D38A5B250C4D8074E7B4DFF0 /* libPods-cryptoTracker-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cryptoTracker-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8A824015BE0E46409B6FAA6 /* Pods-cryptoTracker-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-cryptoTracker-tvOSTests/Pods-cryptoTracker-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DB47C70E8D014341815FA47C /* libPods-cryptoTracker-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cryptoTracker-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E290ABC347005CC15AF57D62 /* Pods-cryptoTracker-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker-tvOS.release.xcconfig"; path = "Target Support Files/Pods-cryptoTracker-tvOS/Pods-cryptoTracker-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		898E2A9993B2C9BAE8FBEE9C /* Pods-cryptoTracker-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-cryptoTracker-tvOS/Pods-cryptoTracker-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A69BF2CB134BBE55EFBB89D5 /* libPods-cryptoTracker-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cryptoTracker-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83A2EB9484E91EF534A7E34 /* Pods-cryptoTracker-cryptoTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker-cryptoTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-cryptoTracker-cryptoTrackerTests/Pods-cryptoTracker-cryptoTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAF1C6BC57290B3B866966C3 /* Pods-cryptoTracker-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker-tvOS.release.xcconfig"; path = "Target Support Files/Pods-cryptoTracker-tvOS/Pods-cryptoTracker-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EFADA34D9E565CF2DA2ADEAA /* Pods-cryptoTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker.debug.xcconfig"; path = "Target Support Files/Pods-cryptoTracker/Pods-cryptoTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		EE0FA8D4B911B387C9AAA368 /* Pods-cryptoTracker-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-cryptoTracker-tvOSTests/Pods-cryptoTracker-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD381C0AF15D2D8E212490D0 /* Pods-cryptoTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoTracker.release.xcconfig"; path = "Target Support Files/Pods-cryptoTracker/Pods-cryptoTracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54DF3AFD76C19D4FD664D86F /* libPods-cryptoTracker-cryptoTrackerTests.a in Frameworks */,
+				2F9EC58B2126A97D758606BA /* libPods-cryptoTracker-cryptoTrackerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65022789B4090334FD852A83 /* libPods-cryptoTracker.a in Frameworks */,
+				EA14F8E2E1DCDDFFF10BC38E /* libPods-cryptoTracker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0A903F5ED36DB3D4C8DF965 /* libPods-cryptoTracker-tvOS.a in Frameworks */,
+				10E813AE98EC30D2D8CA72F4 /* libPods-cryptoTracker-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE36CCBF7D545223290A8B14 /* libPods-cryptoTracker-tvOSTests.a in Frameworks */,
+				A97A8CDD3D7B3E5EF693F677 /* libPods-cryptoTracker-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,15 +136,31 @@
 			name = cryptoTracker;
 			sourceTree = "<group>";
 		};
+		2825F26DDA93690814F10857 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32A9CE19D148EFD664243B19 /* Pods-cryptoTracker.debug.xcconfig */,
+				FD381C0AF15D2D8E212490D0 /* Pods-cryptoTracker.release.xcconfig */,
+				1826DABB83068C824EA591C7 /* Pods-cryptoTracker-cryptoTrackerTests.debug.xcconfig */,
+				B83A2EB9484E91EF534A7E34 /* Pods-cryptoTracker-cryptoTrackerTests.release.xcconfig */,
+				898E2A9993B2C9BAE8FBEE9C /* Pods-cryptoTracker-tvOS.debug.xcconfig */,
+				DAF1C6BC57290B3B866966C3 /* Pods-cryptoTracker-tvOS.release.xcconfig */,
+				700D3EBCF799872AD43E5E64 /* Pods-cryptoTracker-tvOSTests.debug.xcconfig */,
+				EE0FA8D4B911B387C9AAA368 /* Pods-cryptoTracker-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				B6F86AD3F915EB1B64D59444 /* libPods-cryptoTracker.a */,
-				C8E71E0A85D3DF98268DF83B /* libPods-cryptoTracker-cryptoTrackerTests.a */,
-				D38A5B250C4D8074E7B4DFF0 /* libPods-cryptoTracker-tvOS.a */,
-				DB47C70E8D014341815FA47C /* libPods-cryptoTracker-tvOSTests.a */,
+				81A4661DEA04155D5021B29A /* libPods-cryptoTracker.a */,
+				0AF4B58A00ACBA0AF52E581E /* libPods-cryptoTracker-cryptoTrackerTests.a */,
+				418DDEB469DEE377C01CA989 /* libPods-cryptoTracker-tvOS.a */,
+				A69BF2CB134BBE55EFBB89D5 /* libPods-cryptoTracker-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* cryptoTrackerTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				9CBC50814E1142DC9EF9A8E2 /* Pods */,
+				2825F26DDA93690814F10857 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -182,22 +198,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9CBC50814E1142DC9EF9A8E2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EFADA34D9E565CF2DA2ADEAA /* Pods-cryptoTracker.debug.xcconfig */,
-				B7D8D8177C3CF57AC1009F0F /* Pods-cryptoTracker.release.xcconfig */,
-				3BA76A527B1DB0B98FF8CD7A /* Pods-cryptoTracker-cryptoTrackerTests.debug.xcconfig */,
-				4B252FF8AE2A1ED0D768F31B /* Pods-cryptoTracker-cryptoTrackerTests.release.xcconfig */,
-				A3969AD79BC264FE39F8FD32 /* Pods-cryptoTracker-tvOS.debug.xcconfig */,
-				E290ABC347005CC15AF57D62 /* Pods-cryptoTracker-tvOS.release.xcconfig */,
-				D8A824015BE0E46409B6FAA6 /* Pods-cryptoTracker-tvOSTests.debug.xcconfig */,
-				9CA4FEEC51B518B1E7772F5E /* Pods-cryptoTracker-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,11 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "cryptoTrackerTests" */;
 			buildPhases = (
-				3D4C126EB6FF3791EB1738AA /* [CP] Check Pods Manifest.lock */,
+				9BB3F1606DDAA7BDB520DC7A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				7D25285FA8C9DB75B4FC3D97 /* [CP] Copy Pods Resources */,
+				99CBFB0BB94BF6E2EFE065C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,13 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cryptoTracker" */;
 			buildPhases = (
-				1468DD21D7F3B3C3A8932210 /* [CP] Check Pods Manifest.lock */,
+				74B367A21037D5901A9C25F5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				9BCAAED761FE6A35A8887589 /* [CP] Copy Pods Resources */,
+				E9E94C835CE7DCE3DDAF1A9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "cryptoTracker-tvOS" */;
 			buildPhases = (
-				480B008597F5D9A46FE3A679 /* [CP] Check Pods Manifest.lock */,
+				69C9DF793508209EA762E7E4 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "cryptoTracker-tvOSTests" */;
 			buildPhases = (
-				F587AABF63EB3BC1174AC504 /* [CP] Check Pods Manifest.lock */,
+				7B3FFA47CD591B97AC138BF2 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -377,28 +377,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		1468DD21D7F3B3C3A8932210 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-cryptoTracker-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,29 +391,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		3D4C126EB6FF3791EB1738AA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-cryptoTracker-cryptoTrackerTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		480B008597F5D9A46FE3A679 /* [CP] Check Pods Manifest.lock */ = {
+		69C9DF793508209EA762E7E4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,43 +413,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7D25285FA8C9DB75B4FC3D97 /* [CP] Copy Pods Resources */ = {
+		74B367A21037D5901A9C25F5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cryptoTracker-cryptoTrackerTests/Pods-cryptoTracker-cryptoTrackerTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			inputFileListPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"$(DERIVED_FILE_DIR)/Pods-cryptoTracker-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cryptoTracker-cryptoTrackerTests/Pods-cryptoTracker-cryptoTrackerTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9BCAAED761FE6A35A8887589 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cryptoTracker/Pods-cryptoTracker-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cryptoTracker/Pods-cryptoTracker-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F587AABF63EB3BC1174AC504 /* [CP] Check Pods Manifest.lock */ = {
+		7B3FFA47CD591B97AC138BF2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -513,6 +455,64 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99CBFB0BB94BF6E2EFE065C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cryptoTracker-cryptoTrackerTests/Pods-cryptoTracker-cryptoTrackerTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cryptoTracker-cryptoTrackerTests/Pods-cryptoTracker-cryptoTrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BB3F1606DDAA7BDB520DC7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cryptoTracker-cryptoTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E94C835CE7DCE3DDAF1A9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cryptoTracker/Pods-cryptoTracker-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cryptoTracker/Pods-cryptoTracker-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -608,7 +608,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BA76A527B1DB0B98FF8CD7A /* Pods-cryptoTracker-cryptoTrackerTests.debug.xcconfig */;
+			baseConfigurationReference = 1826DABB83068C824EA591C7 /* Pods-cryptoTracker-cryptoTrackerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -631,7 +631,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B252FF8AE2A1ED0D768F31B /* Pods-cryptoTracker-cryptoTrackerTests.release.xcconfig */;
+			baseConfigurationReference = B83A2EB9484E91EF534A7E34 /* Pods-cryptoTracker-cryptoTrackerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -651,7 +651,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFADA34D9E565CF2DA2ADEAA /* Pods-cryptoTracker.debug.xcconfig */;
+			baseConfigurationReference = 32A9CE19D148EFD664243B19 /* Pods-cryptoTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -674,7 +674,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7D8D8177C3CF57AC1009F0F /* Pods-cryptoTracker.release.xcconfig */;
+			baseConfigurationReference = FD381C0AF15D2D8E212490D0 /* Pods-cryptoTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3969AD79BC264FE39F8FD32 /* Pods-cryptoTracker-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 898E2A9993B2C9BAE8FBEE9C /* Pods-cryptoTracker-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E290ABC347005CC15AF57D62 /* Pods-cryptoTracker-tvOS.release.xcconfig */;
+			baseConfigurationReference = DAF1C6BC57290B3B866966C3 /* Pods-cryptoTracker-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8A824015BE0E46409B6FAA6 /* Pods-cryptoTracker-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 700D3EBCF799872AD43E5E64 /* Pods-cryptoTracker-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -778,7 +778,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CA4FEEC51B518B1E7772F5E /* Pods-cryptoTracker-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = EE0FA8D4B911B387C9AAA368 /* Pods-cryptoTracker-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
