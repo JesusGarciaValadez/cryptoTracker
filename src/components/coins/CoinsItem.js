@@ -41,22 +41,22 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   symbolText: {
-    color: '#fff',
+    color: Colors.white,
     fontWeight: 'bold',
     fontSize: 16,
     marginRight: 12,
   },
   nameText: {
-    color: '#fff',
+    color: Colors.white,
     fontSize: 14,
     marginRight: 16,
   },
   priceText: {
-    color: '#fff',
+    color: Colors.white,
     fontSize: 14,
   },
   percentText: {
-    color: '#fff',
+    color: Colors.white,
     fontSize: 12,
     marginRight: 8,
   },

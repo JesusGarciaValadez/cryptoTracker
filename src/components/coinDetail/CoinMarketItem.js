@@ -21,11 +21,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   nameText: {
-    color: '#fff',
+    color: Colors.white,
     fontWeight: 'bold',
   },
   priceText: {
-    color: '#fff',
+    color: Colors.white,
   },
 });
 
