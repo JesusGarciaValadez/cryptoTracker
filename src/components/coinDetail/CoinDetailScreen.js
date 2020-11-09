@@ -71,7 +71,6 @@ class CoinDetailScreen extends Component {
         },
         style: 'default',
       },
-      {cancelable: false},
     ]);
   };
 
