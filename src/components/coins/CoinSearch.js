@@ -30,7 +30,7 @@ class CoinSearch extends Component {
           onChangeText={this.handleText}
           value={query}
           placeholder="Search coin"
-          placeholderTextColor="#fff"
+          placeholderTextColor={Colors.zircon}
         />
       </View>
     );
@@ -39,18 +39,19 @@ class CoinSearch extends Component {
 
 const styles = StyleSheet.create({
   textInput: {
-    height: 46,
     backgroundColor: Colors.charade,
-    paddingLeft: 16,
     color: Colors.white,
+    height: 46,
+    paddingLeft: 16,
   },
   textInputAndroid: {
-    borderBottomWidth: 2,
     borderBottomColor: Colors.zircon,
+    borderBottomWidth: 2,
   },
   textInputIos: {
-    margin: 8,
+    backgroundColor: Colors.blackPearl,
     borderRadius: 8,
+    margin: 8,
   },
 });
 
